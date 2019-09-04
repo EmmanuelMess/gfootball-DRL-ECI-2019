@@ -7,7 +7,7 @@ if __name__ == '__main__':
         stacked=False,  # solo estado, no pixeles
         representation='simple115',  # solo estado, no pixeles
         rewards="scoring,checkpoints",  # recompensas intermedias, no solo al marcar
-        render=True)  # mostrar graficamente
+        render=False)  # mostrar graficamente
 
     logging.disable(logging.WARNING)
 
